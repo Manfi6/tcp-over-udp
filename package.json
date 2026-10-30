@@ -1,0 +1,32 @@
+{
+  "name": "tcp-over-udp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsx src/server/server.ts",
+    "client": "tsx src/client/client.ts",
+    "test": "tsc --noEmit -p tests/tsconfig.json && tsx --test tests/*.test.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "acorn": "^8.17.0",
+    "acorn-walk": "^8.3.5",
+    "arg": "^4.1.3",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.4",
+    "make-error": "^1.3.6",
+    "undici-types": "^8.3.0",
+    "v8-compile-cache-lib": "^3.0.1",
+    "yn": "^3.1.1"
+  },
+  "description": "Reliable data transfer (Stop-and-Wait ARQ) built on top of UDP in TypeScript"
+}
