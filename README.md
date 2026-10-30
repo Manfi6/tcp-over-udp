@@ -65,7 +65,7 @@ tests/
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tcp-over-udp.git
+git clone https://github.com/Manfi6/tcp-over-udp.git
 cd tcp-over-udp
 npm install
 ```
